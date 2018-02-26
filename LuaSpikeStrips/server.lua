@@ -8,8 +8,8 @@ AddEventHandler('chatMessage', function(source, n, msg)
   elseif msg == "/ds" then
     CancelEvent()
     TriggerClientEvent('c_deleteSpike', source)
-  elseif (msg == "/d h") then
-    CancelEvent()
-    TriggerClientEvent('c_debugHeading', source)
+  --elseif (msg == "/d h") then
+    --CancelEvent()
+    --TriggerClientEvent('c_debugHeading', source)
   end
 end)
